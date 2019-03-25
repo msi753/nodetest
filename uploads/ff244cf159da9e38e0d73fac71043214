@@ -1,0 +1,14 @@
+예시)
+
+[team2-홍승윤] 회계관리 - 전표 승인
+
+detail:
+<-Controller->
+OrdersController.java:주소분기
+
+<-Model->
+OrdersService.java: 주문시 예수금 차감과 주문내역 추가 수정
+
+<-View->
+financialIssues.html: 고객센터 내용 변경, 주식선물옵션 내용변경
+index.html: 로그아웃 팝업창

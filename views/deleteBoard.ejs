@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            게시판 삭제
+        </title> 
+    </head>
+    <body>
+        <h1>게시판 삭제</h1> 
+        <form action="/deleteBoard" method="post">
+            <table border=1>
+                <tr>
+                    <th>번호</th> 
+                    <td><input type="text" name="board_no" value="<%= deleteBoard%>" readonly></td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th> 
+                    <td><input type="password" name="board_pw"></td>
+                </tr>
+                <button type="submit">삭제</button>
+            </table>        
+        </form>
+    </body>
+</html>
+    
